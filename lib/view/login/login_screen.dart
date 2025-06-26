@@ -10,10 +10,8 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  final _usernameController = TextEditingController(
-    text: 'paulocremonine@gmail.com',
-  );
-  final _passwordController = TextEditingController(text: 'exWNldgttmcP');
+  final _usernameController = TextEditingController();
+  final _passwordController = TextEditingController();
 
   @override
   void dispose() {
